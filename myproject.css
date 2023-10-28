@@ -1,0 +1,78 @@
+body{
+    font-family: 'Playpen Sans', cursive;
+    background-color:grey;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+    width: 100vw;
+}
+ li{
+    list-style: none;
+    cursor: pointer;
+} 
+.pra{
+    /* background-color: black; */
+    cursor: pointer;
+    color: azure;
+    border: 2px solid black;
+    width: fit-content;
+    padding: 4px;
+}
+.pra:hover{
+    background-color: chartreuse;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+
+}
+.main{
+       font-weight: bold;
+    font-size: xx-large;
+}
+.dis{
+    display: flex;
+    gap: 30px;
+}
+.display{
+    display: block;
+}
+.right{
+    display: flex;
+    flex-direction: column;
+    /* align-items: end;
+    justify-content: end; */
+    align-items: flex-end;
+    justify-content: flex-end;
+    justify-content: space-between;
+    border-spacing: 4cm;
+    
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-spacing: 20%;
+}
+h1{
+    left: 10px;;
+}
+.df{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ft{
+    display: flex;
+    gap: 20px;
+    justify-content:flex-end;
+    align-items: flex-end
+}
+/* .mar{
+    padding: 5%;
+    padding-bottom: 5%;
+} */

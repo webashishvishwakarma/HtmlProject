@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.as{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    gap: 10%;
+    color: deeppink;
+    font-style: none;
+}
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* height: 50vh; */
+    /* width: 70vw; */
+}
+.leftmmain{
+    width: 60%;
+    height: 20%;
+}
+.rightmain{
+    height: 30%;
+    margin-top: 9%;
+    padding-left: 5%;
+}
+body{
+    background-color: aqua;
+}
+.re{
+    background-color: blueviolet;
+}
+.re:hover{
+    color: darkcyan;
+    background-color: darkgreen;
+}
