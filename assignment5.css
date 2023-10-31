@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color :#111827;
+}
+ 
+ .sh{
+    display: flex;
+    justify-content: center;
+    margin-left: 10%;
+ }
+ 
+ header{
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   margin-right: 50%;
+ }
+ .vi{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-left: 10%;
+   font-size: x-large;
+   font-weight: bolder;
+   color: chartreuse;
+ }
+ .sh{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 2px;
+   
+ }
+ .wa{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-left: 10%;
+   gap: 2px;
+ }
+ .ra{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-left: 10%;
+ }
+ .ka{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-left: 10%;
+   gap: 4px;
+ }
+ header{
+    padding-inline: 30%; 
+ }
+ .ra{
+  font-size: x-large;
+  font-weight: bold;
+  color: chocolate;
+ }
+ @media screen and (max-width:576px) {
+
+  header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 50%;
+  }
+  .sh{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+    
+  }
+  .wa{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10%;
+    gap: 2px;
+  }
+
+  
+ }
+ 
+   
+ 
+
+
